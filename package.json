@@ -1,7 +1,7 @@
 {
   "name": "lib-utils-helper",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A Library for Javascript",
   "keywords": [],
   "main": "dist/lib-utils-helper.umd.js",
   "module": "dist/lib-utils-helper.es5.js",
@@ -9,7 +9,7 @@
   "files": [
     "dist"
   ],
-  "author": "MrRabbit <1993iweb@gmail.com.cn>",
+  "author": "MrRabbit <1993iweb@gmail.com>",
   "repository": {
     "type": "git",
     "url": ""
@@ -80,11 +80,12 @@
     "jest-config": "^23.6.0",
     "lodash.camelcase": "^4.3.0",
     "rimraf": "^2.6.2",
-    "rollup": "^0.67.0",
+    "rollup": "^3.2.3",
     "rollup-plugin-commonjs": "^9.1.8",
     "rollup-plugin-json": "^3.1.0",
     "rollup-plugin-node-resolve": "^3.4.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.18.0",
     "semantic-release": "^15.9.16",
     "ts-jest": "^23.10.2",
