@@ -23,12 +23,11 @@ export default {
   },
   plugins: [
     json(), // Allow json resolution
-    terser(),
     typescript({ useTsconfigDeclarationDir: true }),  // Compile TypeScript files
     // Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)
     commonjs(),
     resolve(),
     // sourceMaps(), // Resolve source maps to the original source
-    // terser()
+    terser()
   ],
 }
