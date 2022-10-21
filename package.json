@@ -1,6 +1,6 @@
 {
   "name": "lib-utils-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Library for Javascript",
   "keywords": [],
   "main": "dist/lib-utils-helper.umd.js",
@@ -31,7 +31,7 @@
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "travis-deploy-once": "travis-deploy-once",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -r -s 0",
-    "publish:pkg":"npm run build && npm version patch"
+    "publish:pkg": "npm run build && npm version patch"
   },
   "jest": {
     "transform": {
