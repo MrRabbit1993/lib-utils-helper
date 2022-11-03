@@ -20,4 +20,4 @@
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
-| formatDate | 格式化时间 | (time: Date \| number \| string,format='yyyy-mm-dd hh:ii:ss',getLastMonth = false) |string|
+| formatDate | 格式化时间 | (time: Date \| number \| string, format?: string, getLastMonth?: boolean) |string|
