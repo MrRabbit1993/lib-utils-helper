@@ -1,3 +1,22 @@
+## [1.0.5](https://github.com/MrRabbit1993/lib-utils-helper/compare/v1.0.6...v1.0.5) (2022-11-21)
+
+
+### Features
+
+* update ([b34f94d](https://github.com/MrRabbit1993/lib-utils-helper/commit/b34f94d763a583d6faa1749b878c5d8c91567d78))
+
+
+
+
+## [1.0.5](https://github.com/MrRabbit1993/lib-utils-helper/compare/v1.0.4...v1.0.5) (2022-11-21)
+
+
+### Features
+
+* **deephandle:** 扩展deepclone ([14dc213](https://github.com/MrRabbit1993/lib-utils-helper/commit/14dc213fd55ad9b810f60433c810559be47db40f))
+
+
+
 ## [1.0.4](https://github.com/MrRabbit1993/lib-utils-helper/compare/v1.0.3...v1.0.4) (2022-11-21)
 
 
