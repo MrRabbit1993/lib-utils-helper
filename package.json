@@ -1,6 +1,6 @@
 {
   "name": "lib-utils-helper",
-  "version": "1.0.6",
+  "version": "1.0.5",
   "description": "A Library for Javascript",
   "keywords": [],
   "main": "dist/lib-utils-helper.umd.js",
