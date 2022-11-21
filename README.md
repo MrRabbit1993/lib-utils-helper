@@ -37,16 +37,17 @@
 | urlParsingNode |解析域名相关信息 | url |{protocol: string;host: string}|
 | isAbsoluteURL |是否绝对地址 | url |boolean|
 
-## 6、DeepMerge
+## 6、DeepHandle
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
-| deepMerge |深度对象合并 |objs:any[] |any|
-## 7、extractDataData 数据提取
+| deepMerge |深度对象合并 |obj:any[] |any|
+| deepClone |深拷贝 |obj:an |any|
+## extractData 数据提取
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
-| extractDataData |深度对象合并 |(list:Array<{[key]:string}>,keyMaps:T) |Array|
+| extractData |深度对象合并 |(list:Array<{[key]:string}>,keyMaps:T) |Array|
 
 ## 7、guid
 

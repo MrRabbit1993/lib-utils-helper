@@ -5,7 +5,7 @@
  * @param { Object } keyMaps 字段映射类型
  * @return { Array } 提取字段集合
  */
-const extractDataData = <T extends ReadonlyArray<any>, K extends keyof T[number], KM = { readonly [k in K]: string }>(
+const extractData = <T extends ReadonlyArray<any>, K extends keyof T[number], KM = { readonly [k in K]: string }>(
   list: T,
   keyMaps: KM
 ) => {
@@ -25,4 +25,4 @@ const extractDataData = <T extends ReadonlyArray<any>, K extends keyof T[number]
   })
 }
 
-export { extractDataData }
+export { extractData }
