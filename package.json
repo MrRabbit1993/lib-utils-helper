@@ -1,6 +1,6 @@
 {
   "name": "lib-utils-helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Library for Javascript",
   "keywords": [],
   "main": "dist/lib-utils-helper.umd.js",
@@ -77,10 +77,10 @@
     "ts-jest": "^23.10.2",
     "typescript": "^4.8.4"
   },
-    "exports": {
-      ".": {
-        "types": "./dist/index.d.ts",
-        "import": "./dist/lib-utils-helper.es5"
-      }
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/lib-utils-helper.es5"
     }
+  }
 }
