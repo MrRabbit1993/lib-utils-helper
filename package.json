@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "dist/lib-utils-helper.umd.js",
   "module": "dist/lib-utils-helper.es5.js",
-  "typings": "dist/types/lib-utils-helper.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist"
   ],
@@ -76,5 +76,11 @@
     "semantic-release": "^15.9.16",
     "ts-jest": "^23.10.2",
     "typescript": "^4.8.4"
-  }
+  },
+    "exports": {
+      ".": {
+        "types": "./dist/index.d.ts",
+        "import": "./dist/lib-utils-helper.es5"
+      }
+    }
 }
