@@ -11,8 +11,7 @@
  */
 export function formatDate(
   time: Date | number | string,
-  format = 'yyyy-mm-dd hh:ii:ss',
-  getLastMonth = false
+  format = 'yyyy-mm-dd hh:ii:ss'
 ) {
   if (!time) return ''
   let date
@@ -25,11 +24,11 @@ export function formatDate(
     date = new Date(time)
   }
   let year = date.getFullYear()
-  let month = getLastMonth ? date.getMonth() : date.getMonth() + 1
-  if (getLastMonth && month === 0) {
-    month = 12
-    year--
-  }
+  let month = date.getMonth() + 1
+  // if (getLastMonth && month === 0) {
+  //   month = 12
+  //   year--
+  // }
   const formatMap = {
     y: year,
     m: month,

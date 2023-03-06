@@ -27,7 +27,7 @@
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
-| formatDate | 格式化时间 | (time: Date \| number \| string, format?: string, getLastMonth?: boolean) |string|
+| formatDate | 格式化时间 | (time: Date \| number \| string, format?: string) |string|
 
 ## 5、url相关函数
 
@@ -54,3 +54,16 @@
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
 | guid |全局唯一标识符 |(len = 32, firstU = true, radix = 16) |string|
+
+## 8、Storage（本地存储 new Storage('projectName')）
+
+| 方法名称  | 说明     | 参数说明     |返回值|
+| :-------- | :------- | :--------------------------- |:---|
+| get\<T> |获取指定属性 |storeInstance.get\<T>("name") |T|
+| set |设置指定属性 |storeInstance.set("name","MrRabbit")|void|
+
+## file
+
+| 方法名称  | 说明     | 参数说明     |返回值|
+| :-------- | :------- | :--------------------------- |:---|
+| getFileSuffix |获取文件后缀 |getFileSuffix("logo.png") |RegExpMatchArray|
