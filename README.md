@@ -23,11 +23,12 @@
 | addClassName    | 添加className | (el: HTMLElement, className: string) |boolean|
 
 
-## 4、日期相关函数
+## 4、format相关
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
 | formatDate | 格式化时间 | (time: Date \| number \| string, format?: string) |string|
+| formatThousands | 格式化数字 | (num: number) |string|
 
 ## 5、url相关函数
 
@@ -43,26 +44,26 @@
 | :-------- | :------- | :--------------------------- |:---|
 | deepMerge |深度对象合并 |obj:any[] |any|
 | deepClone |深拷贝 |obj:an |any|
-## extractData 数据提取
+## 7、extractData 数据提取
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
 | extractData |深度对象合并 |(list:Array<{[key]:string}>,keyMaps:T) |Array|
 
-## 7、guid
+## 8、guid
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
 | guid |全局唯一标识符 |(len = 32, firstU = true, radix = 16) |string|
 
-## 8、Storage（本地存储 new Storage('projectName')）
+## 9、Storage（本地存储 new Storage('projectName')）
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|
 | get\<T> |获取指定属性 |storeInstance.get\<T>("name") |T|
 | set |设置指定属性 |storeInstance.set("name","MrRabbit")|void|
 
-## file
+## 10、file
 
 | 方法名称  | 说明     | 参数说明     |返回值|
 | :-------- | :------- | :--------------------------- |:---|

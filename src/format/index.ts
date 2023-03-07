@@ -52,3 +52,14 @@ export function formatDate(
   })
   return timeStr
 }
+
+
+/**
+ * @description: 格式化数字,三位一个逗号
+ * @author: MrRabbit
+ * @param { Number } num
+ * @return { String }
+ */
+export function formatThousands(num: number): string {
+  return (num || 0).toString().replace(/(\d)(?=(?:\d{3})+$)/g, '$1,');
+}
